@@ -15,7 +15,7 @@ export default function Main() {
    <p className='lg:w-[20rem] text-gray-900 my-2 '>Transform your digital presence with our comprehensive web and app development services. We deliver user-friendly, efficient solutions tailored to your goals </p>
  
    <div className='my-[2rem] hover:animate-bounce'>
-   <button className='bg-[#87d628] text-white p-3 border rounded-lg shadow-lg  '>Let's Work Together</button>
+   <button className='bg-[#87d628] text-white p-3 border rounded-lg shadow-lg  '>Let&apos;s Work Together</button>
    </div>
    </div>
   </div>

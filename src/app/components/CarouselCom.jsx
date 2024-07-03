@@ -78,7 +78,7 @@ function ReactSimplyCarouselExample() {
          <h1>.</h1>
          <h1 >.</h1>
          <h2>ceo</h2>
-         <p className='text-[10px] p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa excepturi maiores voluptate ipsam dolorum, neque commodi in velit culpa placeat quod facere distinctio optio doloribus quisquam voluptas? Quam, temporibus?</p>
+         <p className='text-[10px] p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa excepturi maiores voluptate ipsam  neque commodi in velit culpa placeat quod facere distinctio optio doloribus quisquam voluptas Quam temporibu</p>
        </div>
       </div>:
          
@@ -95,7 +95,7 @@ function ReactSimplyCarouselExample() {
           <h1>.</h1>
           <h1 >.</h1>
           <h2>ceo</h2>
-          <p className='text-[10px] p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa excepturi maiores voluptate ipsam dolorum, neque commodi in velit culpa placeat quod facere distinctio optio doloribus quisquam voluptas? Quam, temporibus?</p>
+          <p className='text-[10px] p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa excepturi maiores voluptate ipsam dolorum neque commodi in velit culpa placeat quod facere distinctio optio doloribus quisquam voluptas Quam temporibus</p>
         </div>
        </div>
         }
