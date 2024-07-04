@@ -46,12 +46,12 @@ export default function Process() {
        
     ]
   return (
-    <div className='bg-[#87d628] text-white lg:h-[160vh] p-4'>
-      <Image src={'/process.jpg'} width={1000} height={1000} className='lg:mb-[-5rem] animate-bounceImg realtive z-[50]'/>
+    <div className='bg-[#87d628] text-white  lg:h-[140vh] p-4'>
+      <Image src={'/process.jpg'} width={850} height={850} className='lg:mb-[-5rem] animate-bounceImg realtive z-[50]'/>
         <div className='flex bottom-0'>
 <div className='flex flex-col lg:flex-row justify-center lg:justify-between items-center w-[100vw]'>
   
-  <div className=" flex  w-[50%] h-[30rem]  justify-center flex-col items-center"
+  <div className=" flex  w-[50%] lg:h-[30rem]  justify-center flex-col items-center"
   >
 <h1 className='flex justify-center font-bold text-4xl w-[100%] lg:w-[30rem] tracking-[.25em]'>Our <span> Process</span> </h1>  
      
@@ -60,13 +60,13 @@ export default function Process() {
      
    
   </div>
-  <div className=" flex w-[100%]  lg:w-[50%] h-[20rem] lg:h-[35rem]  justify-center flex-wrap  gap-[5px] lg:gap-4 w-1/2 lg:p-4 realtive z-[100]" >
+  <div className=" flex w-[100%]  lg:w-[50%] h-[20rem] lg:h-[35rem]  justify-center flex-wrap  gap-[5px] lg:gap-2 w-1/2 lg:p-4 realtive z-[100]" >
  {
     data.map((i)=>(
         <div key={i} className=' flex items-center flex-col justify-center border w-[5rem] h-[6rem] lg:w-[9rem] lg:h-[12rem] rounded-[45%] bg-white text-black shadow-lg gap-2 lg:gap-4'>
     <h1 className='text-[#87d628] font-bold'>{i.id}</h1>
     <i className=' text-lg lg:text-4xl text-[#87d628]'>{i.icon}</i>
-    <p className='text-[8px]'>{i.title}</p>
+    <p className='text-[8px] lg:text-[1rem]'>{i.title}</p>
  </div>
     ))
  }

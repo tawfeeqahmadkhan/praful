@@ -15,7 +15,7 @@ export default function About() {
   </div>
   <div className=" flex items-center w-[100%] lg:w-[55%] lg:h-[35rem] justify-center" >
   <div>
-   <h1 className='font-bold text-4xl lg:w-[30rem]'>About <span className='text-[#87d628] '>Us</span> </h1>  
+   <h1 className=' text-center font-bold text-4xl lg:w-[30rem]'>About <span className='text-[#87d628] '>Us</span> </h1>  
      
    <p className='lg:w-[30rem] text-gray-900'>At Wantech, we deliver innovative web and app development solutions for modern businesses. Our expert team transforms your digital presence into user-friendly, efficient experiences tailored to your goals. Partner with us to elevate your business in the digital world </p>
  
