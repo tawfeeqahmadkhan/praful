@@ -9,18 +9,19 @@ import Services from "./components/services";
 
 export default function Home() {
   return (
-   <>
-   <Header/>
-  <Main/>
-  <About/>
-  <Services/>
-  <Process/>
-  <Projects/>
+    <>
+      <div className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 text-white ">
+        <Header />
+        <Main />
+      </div>
+      <Process />
+      <Services />
+      <Projects />
+      <About />
+      <Testimonials />
+      <Footer />
 
-  <Testimonials/>
-  <Footer/>
+    </>
 
-   </>
-   
   );
 }
