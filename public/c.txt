@@ -1,3 +1,0 @@
-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
-
-git push https://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@github.com/tawfeeqahmadkhan/praful.git
