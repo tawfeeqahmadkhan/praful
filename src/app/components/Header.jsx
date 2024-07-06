@@ -25,7 +25,7 @@ export default function Header() {
               Home
             </li>
           </Link>
-          <Link href={"/"}>
+          <Link href={"/about"}>
             <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
               Abous Us
             </li>

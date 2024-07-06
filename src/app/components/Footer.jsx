@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Footer = () => {
   const currentDate = new Date();
   return (
-    <footer className="bg-yellow-200 py-8">
+    <footer className="bg-yellow-200 py-8 ">
       <div className="container mx-auto text-center">
         <div className="flex flex-col items-center">
           <div className="flex items-center mb-4 ">
