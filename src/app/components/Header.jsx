@@ -30,9 +30,11 @@ export default function Header() {
               Abous Us
             </li>
           </Link>
+          <Link href={"/services"}>
           <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
             Services
           </li>
+          </Link>
           {/* <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
             Projects
           </li> */}
