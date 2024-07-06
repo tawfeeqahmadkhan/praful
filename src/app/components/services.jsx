@@ -3,7 +3,7 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <div className=" mx-auto p-6  w-[100vw]  rounded-lg  bg-gray-100" >
+    <div className=" mx-auto p-6  w-[100vw]    bg-gray-100" >
       <h2 className="text-4xl font-bold text-center mb-6 ">Service<span className='text-[#87d628]'>s</span> </h2>
       <p className=" text-center mb-12 ">
       We specialize in app and web development, offering expert UI and UX design services to elevate your digital presence

@@ -33,15 +33,17 @@ export default function Header() {
           <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
             Services
           </li>
-          <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
+          {/* <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
             Projects
-          </li>
-          <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
+          </li> */}
+          {/* <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
             Testimonials
-          </li>
+          </li> */}
+           <Link href={"/contact"}>
           <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
             Contact
           </li>
+          </Link>
         </ul>
         </div>
       </div>
@@ -74,12 +76,12 @@ export default function Header() {
           <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
             Services
           </li>
-          <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
+          {/* <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
             Projects
-          </li>
-          <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
+          </li> */}
+          {/* <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
             Testimonials
-          </li>
+          </li> */}
           <li className="cursor-pointer hover:text-[#87d628] hover:border-b border-[#87d628]">
             Contact
           </li>

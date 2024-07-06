@@ -1,7 +1,5 @@
 import React from 'react'
 import ReactSimplyCarouselExample from './CarouselCom'
-
-
 export default function Testimonials() {
   return (
     <div className="container " >
@@ -9,10 +7,8 @@ export default function Testimonials() {
   <div  className="flex justify-center  px-20  lg:px-[15rem] w-[100vw] text-start  flex-col ">
   <p className="flex lg:w-[100%]  flex-start">Clients rave about our app and web development services, as well as our UI and UX design expertise.They appreciate our ability to consistently deliver exceptional results that elevate their brands and captivate their target audience
     </p>
-   
   </div>
     <div>
-
     </div>
 <div className='my-[1rem] '>
 <ReactSimplyCarouselExample/>

@@ -25,7 +25,7 @@ export default function Main() {
         animationData={AnimationData} 
         loop={true} 
         autoplay={true} 
-        style={{ width: 600, height: 500,boxShadow:'2px 2px 2px' }} 
+        style={{ width: 600, height: 500, }} 
       />
   </div>
   </div>      
