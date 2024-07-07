@@ -51,7 +51,7 @@ export default function Process() {
         <div className='flex bottom-0'>
 <div className='flex flex-col lg:flex-row justify-center lg:justify-between items-center w-[100vw]'>
   
-  <div className=" flex  w-[50%] lg:h-[30rem]  justify-center flex-col items-center"
+  <div className=" flex  w-[50%] lg:h-[30rem]  justify-center flex-col items-center lg:pl-[-1rem]"
   >
 <h1 className='flex  font-bold text-4xl w-[100%] lg:w-[30rem] tracking-[.25em] gap-4'>Our  <span> Process</span> </h1>  
      

@@ -8,7 +8,7 @@ const Services = () => {
       <p className=" text-center mb-12 ">
       We specialize in app and web development, offering expert UI and UX design services. Our team creates visually stunning, highly functional interfaces to enhance user experience and help your business stand out digitally.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:bg-[url('/ser.png')] bg-no-repeat bg-center bg-[length:19rem_15rem] p-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:bg-[url('/ser.png')] bg-no-repeat bg-center bg-[length:19rem_15rem] p-4">
         <div className="lg:pr-[7rem]   rounded-md text-center flex items-center flex-col">
           <h3 className="text-xl font-bold mb-2 ">UI/UX</h3>
           <p className=' text-start '>Crafting seamless and captivating digital experiences through user-centered design.</p>
