@@ -53,7 +53,7 @@ export default function page() {
         
         <div className="flex items-center flex-col justify-center bg-gray-100 gap-4 py-4">
         <h1 className="font-bold text-2xl">About <span className="text-[#87d628]">Wantech</span></h1>
-        <p className="w-[90vw] text-sm text-gray-900 lg:px-[8rem]">We've expanded our skill set to a vast variety of technologies spanning from web applications to mobile applications,  Business apps,hosting, ecommerce. We've also excelled in the area of cloud hosting and deployment too. We are a small team of extremely smart individuals with very strong hold on various technologies.</p>
+        <p className="w-[90vw] text-sm text-gray-900 lg:px-[8rem]">We&apos;ve expanded our skill set to a vast variety of technologies spanning from web applications to mobile applications,  Business apps,hosting, ecommerce. We've also excelled in the area of cloud hosting and deployment too. We are a small team of extremely smart individuals with very strong hold on various technologies.</p>
         <div className="flex flex-row   justify-center gap-4 flex-wrap pb-4 ">
            { data.map((item)=>(
             <div className=" flex items-center flex-col justify-center w-[95%]  lg:w-[19rem] bg-white shadow-lg gap-8 cursor-pointer h-[20rem] hover:animate-increaseSize2" key={data.id}>
