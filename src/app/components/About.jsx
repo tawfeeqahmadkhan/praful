@@ -17,7 +17,7 @@ export default function About() {
   <div>
    <h1 className=' text-center font-bold text-4xl lg:w-[30rem]'>About <span className='text-[#87d628] '>Us</span> </h1>  
      
-   <p className='lg:w-[30rem] text-gray-900'>At Wantech, we deliver innovative web and app development solutions for modern businesses. Our expert team transforms your digital presence into user-friendly, efficient experiences tailored to your goals. Partner with us to elevate your business in the digital world </p>
+   <p className='lg:w-[30rem] text-gray-900'>At Wantech, we deliver innovative web and app development solutions for modern businesses. Our expert team transforms your digital presence into user friendly, efficient experiences tailored to your goals. Partner with us to elevate your business in the digital world </p>
  
  <div className='my-[1rem] '>
   <p>App Development</p>
