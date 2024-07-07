@@ -67,12 +67,14 @@ export default function page() {
        <div className=" flex w-[98vw]  lg:w-[50%] lg:h-[30rem]  lg:items-center  "
        >
       <div>
-      <Image src={'/mobile.png'} width={400} height={450} className="flex  justify-center items-center hidden lg:flex "/>
+      <Image src={'/webser.png'} width={600} height={450} className="flex  justify-center items-center hidden lg:flex "/>
       </div>
        </div>
        </div> 
         </div> 
-   <Footer/>
+  <div className='text-black'>
+  <Footer/>
+  </div>
   </div>
   )
 }

@@ -23,12 +23,12 @@ const Footer = () => {
           </div>
           <nav className="mb-4">
             <ul className="flex space-x-4 text-gray-700 flex-wrap justify-center">
-              <li><a href="#home" className="hover:text-blue-500">Home</a></li>
-              <li><a href="#about" className="hover:text-blue-500">About me</a></li>
-              <li><a href="#services" className="hover:text-blue-500">Services</a></li>
+              <li><a href="/" className="hover:text-blue-500">Home</a></li>
+              <li><a href="/about" className="hover:text-blue-500">About me</a></li>
+              <li><a href="/services" className="hover:text-blue-500">Services</a></li>
               {/* <li><a href="#projects" className="hover:text-blue-500">Projects</a></li>
               <li><a href="#testimonials" className="hover:text-blue-500">Testimonials</a></li> */}
-              <li><a href="#contact" className="hover:text-blue-500">Contact</a></li>
+              <li><a href="/contact" className="hover:text-blue-500">Contact</a></li>
             </ul>
           </nav>
           <div className="flex space-x-4 mb-4">
