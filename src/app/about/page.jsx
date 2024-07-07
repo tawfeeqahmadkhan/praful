@@ -70,16 +70,23 @@ export default function page() {
         </div>
         </div>
        <div className=" bg-[#87d628] text-white lg:p-14 pb-2">
-        <h1 className="text-center  font-semibold text-2xl ">We do know how IT world functions</h1>
+        <h1 className="text-center  font-semibold text-2xl ">Why Choose Us</h1>
        <div className='flex  justify-center flex-col lg:flex-row lg:justify-between items-center w-[100vw]'>
        
        <div className=" flex  lg:items-center  w-[100%]  lg:w-[50%]  lg:justify-center p-2 " >
        <div>
-        <h1 className='font-bold  lg:w-[30rem]'>Our strengths and abilities</h1>   
-        <p className=' w-[90%]  my-2 '>Our skills and knowledge are extremely flexible  we are able to accomplish literally any IT challenge todays market can throw on us. Our portfolio speaks for itself.</p>
-        <h1 className='font-bold  lg:w-[30rem] py-4'>Focus on long term relationships</h1>   
-        <p className=' w-[90%]  '>Being on the market for few years we have managed to gain the trust and respect from our clients. Long-term relationships and happy customers have always been one of our main goals </p>
+        <h1 className='font-bold  lg:w-[30rem]'>Comprehensive Technology Stack</h1>   
+        <p className=' w-[90%]  my-2 text-sm pb-4'> From frontend to backend development, mobile apps to enterprise solutions, and everything in between, we have the capability to handle a wide array of technological requirements. Our proficiency spans multiple platforms and frameworks, ensuring that we can tailor solutions precisely to your specifications.</p>
+        <h1 className='font-bold  lg:w-[30rem]'>Expertise in Cloud Hosting and Deployment</h1>   
+        <p className=' w-[90%] text-sm   pb-4 '>We excel in leveraging cloud technologies to optimize performance, scalability, and cost-efficiency for your applications. Whether it's AWS, Azure, Google Cloud, or other platforms, we ensure seamless deployment and management of your applications in the cloud</p>
+
+        <h1 className='font-bold  lg:w-[30rem] '>Innovative and Agile Approach</h1>   
+        <p className=' w-[90%] text-sm  pb-4  '>As a small team of exceptionally smart individuals, we thrive on solving complex challenges with innovative solutions. Our agile methodology allows us to adapt quickly to changes, ensuring we deliver projects on time and within budget while exceeding expectations</p>
        
+        <h1 className='font-bold  lg:w-[30rem]'>Commitment to Quality and Client Satisfaction</h1>   
+        <p className=' w-[90%] text-sm  pb-4 '>We prioritize quality in every aspect of our work, from initial concept to final delivery. Our attention to detail and commitment to understanding your business goals ensure that we not only meet but exceed your expectations. Client satisfaction is at the heart of everything we do</p>
+        <h1 className='font-bold  lg:w-[30rem]'>Personalized Service and Collaboration</h1>   
+        <p className=' w-[90%] text-sm  pb-4 '>We believe in building strong, collaborative relationships with our clients. Your success is our success, and we work closely with you to ensure that our solutions align perfectly with your vision and objectives. You can count on us to be responsive, proactive, and dedicated to your project's success</p>
         </div>
        </div>
        <div className=" flex w-[98vw]  lg:w-[50%] lg:h-[30rem]  lg:items-center  "
