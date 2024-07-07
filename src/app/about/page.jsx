@@ -86,7 +86,7 @@ export default function page() {
         <h1 className='font-bold  lg:w-[30rem]'>Commitment to Quality and Client Satisfaction</h1>   
         <p className=' w-[90%] text-sm  pb-4 '>We prioritize quality in every aspect of our work, from initial concept to final delivery. Our attention to detail and commitment to understanding your business goals ensure that we not only meet but exceed your expectations. Client satisfaction is at the heart of everything we do</p>
         <h1 className='font-bold  lg:w-[30rem]'>Personalized Service and Collaboration</h1>   
-        <p className=' w-[90%] text-sm  pb-4 '>We believe in building strong, collaborative relationships with our clients. Your success is our success, and we work closely with you to ensure that our solutions align perfectly with your vision and objectives. You can count on us to be responsive, proactive, and dedicated to your project's success</p>
+        <p className=' w-[90%] text-sm  pb-4 '>We believe in building strong, collaborative relationships with our clients. Your success is our success, and we work closely with you to ensure that our solutions align perfectly with your vision and objectives. You can count on us to be responsive, proactive, and dedicated to your project&apos;s success</p>
         </div>
        </div>
        <div className=" flex w-[98vw]  lg:w-[50%] lg:h-[30rem]  lg:items-center  "
