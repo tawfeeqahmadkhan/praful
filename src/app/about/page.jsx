@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -6,6 +7,7 @@ import { VscTools } from "react-icons/vsc";
 import { GiShakingHands } from "react-icons/gi";
 import { BsPeopleFill } from "react-icons/bs";
 import { GiProcessor } from "react-icons/gi";
+import ProgressBar from "@ramonak/react-progress-bar";
 export default function page() {
     const data = [
         {
@@ -68,7 +70,7 @@ export default function page() {
         </div>
         </div>
        <div className=" bg-[#87d628] text-white lg:p-14 pb-2">
-        <h1 className="text-center  font-semibold text-2xl py-8">We do know how IT world functions</h1>
+        <h1 className="text-center  font-semibold text-2xl ">We do know how IT world functions</h1>
        <div className='flex  justify-center flex-col lg:flex-row lg:justify-between items-center w-[100vw]'>
        
        <div className=" flex  lg:items-center  w-[100%]  lg:w-[50%]  lg:justify-center p-2 " >
@@ -88,6 +90,62 @@ export default function page() {
        </div>
        </div> 
         </div> 
+        <div>
+        <div className='flex bg-gray-100 text-black p-4"'>
+<div className='flex justify-center flex-col lg:flex-row lg:justify-between items-center w-[100vw] p-2'>
+  
+ 
+  <div className=" flex items-center w-[100%] lg:w-[45%] lg:h-[35rem] justify-center p-2 lg:p-8" >
+  <div>
+   <h1 className=' font-bold text-4xl '>Experience and <span className='text-[#87d628] '>skills </span> </h1>  
+     
+  
+ 
+ <div className='my-[1rem] '>
+  <p className="text-sm pb-2 text-gray-800">AngularJS, Ionic, Node JS ,Express JS, Loopback, 
+    Typescript, React JS/React Native, VueJS, Flutter, MeteorJS</p>
+    <h1>JAVASCRIPT</h1>
+ <ProgressBar completed={92} height={10} bgColor='#87d628' animateOnRender/>
+ </div>
+ <div className='my-[2rem] '>
+  <p className="text-sm pb-2">HTML/CSS, Twitter Bootstrap /Zurb foundation/Media Query, Responsive websites/email templates Mailchimp, Shopify, Squarespace, PSD to HTML/Wordpress, jQuery/Javascript, Animations with HTML5/CSS3</p>
+    <h1>FRONT END DEVELOPMENT</h1>
+ <ProgressBar completed={95} height={10} bgColor='#87d628' animateOnRender/>
+ </div>
+ <div className='my-[2rem] '>
+  <p className="text-sm pb-2">Automation testing</p>
+    <h1>QA</h1>
+ <ProgressBar completed={90} height={10} bgColor='#87d628' animateOnRender/>
+ </div>
+ <div className='my-[2rem] '>
+  <p className="text-sm pb-2">MOBILE DEVELOPMENT</p>
+    <h1>React Native</h1>
+ <ProgressBar completed={85} height={10} bgColor='#87d628' animateOnRender/>
+ </div>
+   </div>
+  </div>
+  <div className=" w-[100%] lg:w-[50%]  bg-no-repeat    flex-col p-4"
+  >
+ <div className='my-[2rem] '>
+ <h1>ANALYSIS</h1>
+  <p className="text-sm pb-2">Understanding your business needs it&apos;s one of the most important steps we have to take to develop an efficient digital solution. Hence, our interest in developing a strategic plan first</p>
+ </div>
+ <div className='my-[1rem] '>
+ <h1>UI/UX DESIGN</h1>
+  <p className="text-sm pb-2">We are capable of creating highly usable and intuitive designs for future mobile and web application that will serve you as suitable tools to engage customers.</p>
+ </div>
+ <div className='my-[1rem] '>
+ <h1>FRONT END DEVELOPMENT</h1>
+  <p className="text-sm pb-2">Our front-end experts provide a thorough and detailed approach to build customised web and mobile applications</p>
+ </div>
+ <div className='my-[2rem] '>
+ <h1>BACK END CODING</h1>
+  <p className="text-sm pb-2">We are highly strategical and analytical in building a solid code that will transform even the boldest ideas into reality.</p>
+ </div>
+  </div>
+  </div>      
+    </div>
+    </div>
       </div>
       <Footer />
     </>

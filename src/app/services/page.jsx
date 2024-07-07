@@ -18,7 +18,7 @@ export default function page() {
         <h1 className='font-bold  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-2xl font-bold'><MdOutlineDone /></span> App Development</h1>          
         <h1 className='font-bold  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-2xl font-bold'><MdOutlineDone /></span> UI/UX And Graphic Design</h1>
         <h1 className='font-bold  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-2xl font-bold'><MdOutlineDone /></span> Hosting</h1>
-        <button className='bg-[#87d628] text-white p-3 border rounded-lg shadow-lg  '>Talk To Our Expert</button>          
+        <a href="/contact">   <button className='bg-[#87d628] text-white p-3 border rounded-lg shadow-lg  '>Talk To Our Expert</button> </a>
         </div>
        </div>
        <div className=" flex w-[98vw]  lg:w-[50%] lg:h-[30rem]  lg:items-center  "

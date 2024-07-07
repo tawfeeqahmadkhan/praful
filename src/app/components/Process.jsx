@@ -56,7 +56,8 @@ export default function Process() {
 <h1 className='flex justify-center font-bold text-4xl w-[100%] lg:w-[30rem] tracking-[.25em]'>Our <span> Process</span> </h1>  
      
      <p className='w-[16rem] lg:w-[30rem] text-lg my-10'>At Wantech, we believe that process needs to be simple, organized, and transparent, so we create eight steps </p>
-     <p className='w-[16rem] lg:w-[30rem] text-lg text-semibold lg:my-10 flex items-center gap-4 cursor-pointer'>Contact Us <span className='cursor-pointer text-2xl hover:animate-increaseSize'> <FaLongArrowAltRight /></span> </p>
+     <a href="/contact"> 
+     <p className='w-[16rem] lg:w-[30rem] text-lg text-semibold lg:my-10 flex items-center gap-4 cursor-pointer'>Contact Us <span className='cursor-pointer text-2xl hover:animate-increaseSize'> <FaLongArrowAltRight /></span> </p></a>
      
    
   </div>
