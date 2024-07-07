@@ -6,8 +6,8 @@ import React from 'react'
 export default function About() {
   return (
     <div>
-        <div className='flex bg-gray-100 text-black p-4"'>
-<div className='flex justify-center flex-col lg:flex-row lg:justify-between items-center w-[100vw] p-2'>
+        <div className='flex bg-gray-100 text-black p-8"'>
+<div className='flex justify-center flex-col lg:flex-row lg:justify-between items-center w-[100vw] p-2 lg:px-20'>
   
   <div className=" hidden lg:flex  w-[45%] h-[30rem] bg-no-repeat items-center justify-center"
   >

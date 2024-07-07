@@ -55,10 +55,10 @@ export default function page() {
         
         <div className="flex items-center flex-col justify-center bg-gray-100 gap-4 py-4">
         <h1 className="font-bold text-2xl">About <span className="text-[#87d628]">Wantech</span></h1>
-        <p className="w-[90vw] text-sm text-gray-900 lg:px-[8rem]">We&apos;ve expanded our skill set to a vast variety of technologies spanning from web applications to mobile applications,  Business apps,hosting, ecommerce. We&apos;ve also excelled in the area of cloud hosting and deployment too. We are a small team of extremely smart individuals with very strong hold on various technologies.</p>
+        <p className="w-[90vw] text-sm text-gray-900 lg:px-[1rem]">We&apos;ve expanded our skill set to a vast variety of technologies spanning from web applications to mobile applications,  Business apps,hosting, ecommerce. We&apos;ve also excelled in the area of cloud hosting and deployment too. We are a small team of extremely smart individuals with very strong hold on various technologies.</p>
         <div className="flex flex-row   justify-center gap-4 flex-wrap pb-4 ">
            { data.map((item)=>(
-            <div className=" flex items-center flex-col justify-center w-[95%]  lg:w-[19rem] bg-white shadow-lg gap-8 cursor-pointer h-[20rem] hover:animate-increaseSize2" key={data.id}>
+            <div className=" flex items-center flex-col justify-center w-[95%]  lg:w-[18rem] bg-white shadow-lg gap-8 cursor-pointer h-[20rem] hover:animate-increaseSize2" key={data.id}>
                 <i className="text-[3rem] ">{item.icon}</i>
                 <h1 className=" font-semibold px-4">{item.title}</h1>
                 <p className="text-sm text-gray-900 px-4">
@@ -70,22 +70,22 @@ export default function page() {
         </div>
         </div>
        <div className=" bg-[#87d628] text-white lg:p-14 pb-2">
-        <h1 className="text-center  font-semibold text-2xl ">Why Choose Us</h1>
+        <h1 className="text-center  font-semibold text-2xl ">Why Choose <span className="text-black">Us</span></h1>
        <div className='flex  justify-center flex-col lg:flex-row lg:justify-between items-center w-[100vw]'>
        
-       <div className=" flex  lg:items-center  w-[100%]  lg:w-[50%]  lg:justify-center p-2 " >
+       <div className=" flex  lg:items-center  w-[100%]  lg:w-[50%]  lg:justify-center p-2 lg:px-8 " >
        <div>
-        <h1 className='font-bold  lg:w-[30rem]'>Comprehensive Technology Stack</h1>   
+        <h1 className='font-bold  lg:w-[30rem] text-black'>Comprehensive Technology Stack</h1>   
         <p className=' w-[90%]  my-2 text-sm pb-4'> From frontend to backend development, mobile apps to enterprise solutions, and everything in between, we have the capability to handle a wide array of technological requirements. Our proficiency spans multiple platforms and frameworks, ensuring that we can tailor solutions precisely to your specifications.</p>
-        <h1 className='font-bold  lg:w-[30rem]'>Expertise in Cloud Hosting and Deployment</h1>   
+        <h1 className='font-bold  lg:w-[30rem] text-black'>Expertise in Cloud Hosting and Deployment</h1>   
         <p className=' w-[90%] text-sm   pb-4 '>We excel in leveraging cloud technologies to optimize performance, scalability, and cost-efficiency for your applications. Whether it&apos;s AWS, Azure, Google Cloud, or other platforms, we ensure seamless deployment and management of your applications in the cloud</p>
 
-        <h1 className='font-bold  lg:w-[30rem] '>Innovative and Agile Approach</h1>   
+        <h1 className='font-bold  lg:w-[30rem] text-black'>Innovative and Agile Approach</h1>   
         <p className=' w-[90%] text-sm  pb-4  '>As a small team of exceptionally smart individuals, we thrive on solving complex challenges with innovative solutions. Our agile methodology allows us to adapt quickly to changes, ensuring we deliver projects on time and within budget while exceeding expectations</p>
        
-        <h1 className='font-bold  lg:w-[30rem]'>Commitment to Quality and Client Satisfaction</h1>   
+        <h1 className='font-bold  lg:w-[30rem] text-black'>Commitment to Quality and Client Satisfaction</h1>   
         <p className=' w-[90%] text-sm  pb-4 '>We prioritize quality in every aspect of our work, from initial concept to final delivery. Our attention to detail and commitment to understanding your business goals ensure that we not only meet but exceed your expectations. Client satisfaction is at the heart of everything we do</p>
-        <h1 className='font-bold  lg:w-[30rem]'>Personalized Service and Collaboration</h1>   
+        <h1 className='font-bold  lg:w-[30rem] text-black'>Personalized Service and Collaboration</h1>   
         <p className=' w-[90%] text-sm  pb-4 '>We believe in building strong, collaborative relationships with our clients. Your success is our success, and we work closely with you to ensure that our solutions align perfectly with your vision and objectives. You can count on us to be responsive, proactive, and dedicated to your project&apos;s success</p>
         </div>
        </div>
@@ -102,7 +102,7 @@ export default function page() {
 <div className='flex justify-center flex-col lg:flex-row lg:justify-between items-center w-[100vw] p-2'>
   
  
-  <div className=" flex items-center w-[100%] lg:w-[45%] lg:h-[35rem] justify-center p-2 lg:p-8" >
+  <div className=" flex items-center w-[100%] lg:w-[45%] lg:h-[35rem] justify-center p-2 lg:p-8 lg:px-20" >
   <div>
    <h1 className=' font-bold text-4xl '>Experience and <span className='text-[#87d628] '>skills </span> </h1>  
      
@@ -131,7 +131,7 @@ export default function page() {
  </div>
    </div>
   </div>
-  <div className=" w-[100%] lg:w-[50%]  bg-no-repeat    flex-col p-4"
+  <div className=" w-[100%] lg:w-[50%]  bg-no-repeat    flex-col p-2 lg:p-4"
   >
  <div className='my-[2rem] '>
  <h1>ANALYSIS</h1>

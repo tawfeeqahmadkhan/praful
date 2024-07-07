@@ -53,7 +53,7 @@ export default function Process() {
   
   <div className=" flex  w-[50%] lg:h-[30rem]  justify-center flex-col items-center"
   >
-<h1 className='flex justify-center font-bold text-4xl w-[100%] lg:w-[30rem] tracking-[.25em]'>Our <span> Process</span> </h1>  
+<h1 className='flex  font-bold text-4xl w-[100%] lg:w-[30rem] tracking-[.25em] gap-4'>Our  <span> Process</span> </h1>  
      
      <p className='w-[16rem] lg:w-[30rem] text-lg my-10'>At Wantech, we believe that process needs to be simple, organized, and transparent, so we create eight steps </p>
      <a href="/contact"> 

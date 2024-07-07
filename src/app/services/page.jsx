@@ -149,13 +149,16 @@ export default function page() {
        </div>
        
        </div>
-       <div className='flex p-1 lg:p-[10rem] lg:pb-[2px] flex-col bg-white text-black'>
+       <div className='flex p-1 lg:p-[10rem] lg:px-[4rem] lg:pb-[2px] flex-col bg-white text-black '>
         <h1 className='font-bold text-2xl text-start pb-2'>The process we follow to Hire Dedicated Developers</h1>
         <p className='text-sm pb-2'>Web And Mobile Development is itself a model that we follow for overall deliverables. Incipient Infotech works for seamless integrations and much more and that is why we have carved a proper web And mobile development model. Every project goes through a few stages, where we intervene with our relevant skills. Here are the prominent steps of the process that Web And Mobile Development Service include</p>
+        
+        <div className='flex w-[100%] items-center  justify-center'>
         <Image src={'/processhire.png'} width={1000} height={1000}/>
+        </div>
        </div>
 
-       <div className='flex p-1 lg:p-[10rem] flex-col bg-white text-black'>
+       <div className='flex p-1 lg:p-[10rem] lg:px-[4rem] flex-col bg-white text-black'>
         <h1 className='font-bold text-2xl text-start pb-2'>Industries We Have Experience In</h1>
         <p className='text-sm pb-2'>We are happily serving clients from different industries. Here are a few to define our unerring development approach</p>
         <div className="flex items-center flex-col justify-center bg-gray-100 gap-4 py-4">

@@ -65,10 +65,10 @@ export default function Page() {
       <div className=" w-[100vw] bg-[url('/office2.png')] bg-no-repeat bg-w-[100vw] lg:bg-contain ">
       <div className="bg-black  bg-opacity-[70%] text-white">
     <Header   />
-    <div className=" flex  flex-col  w-[99vw]   lg:h-[19rem]  p-1 lg:p-8">
-      <h1 className='text-start font-bold lg:text-4xl   '>Kickstart Your Digital Journey Today</h1>
-      <p className='text-start lg:font-semibold text-sm lg:text-lg w-[90%] lg:w-[50%]'>Your Digital Presence is Important of today&apos;s Industry. Don&apos;t Let anyone overtake your Existence.</p>
-      <p className='text-start lg:font-semibold text-sm lg:text-lg lg:w-[50%]'>we can lead you in the Digital World by Being your technology partner</p>
+    <div className=" flex  flex-col  w-[99vw]   lg:h-[19rem]  p-1 lg:p-8 gap-4">
+      <h1 className='text-start font-bold lg:text-2xl   '>Kickstart Your Digital Journey <span className='text-[#87d628]'>Today</span> </h1>
+      <p className='text-start  text-sm w-[90%] lg:w-[50%]'>Your Digital Presence is Important of today&apos;s Industry. Don&apos;t Let anyone overtake your Existence.</p>
+      <p className='text-start  text-sm lg:w-[50%]'>we can lead you in the Digital World by Being your technology partner</p>
     </div>
     </div>
       </div> 
@@ -77,20 +77,20 @@ export default function Page() {
        >
       <div>
     
-     <div className='flex   flex-col text-2xl my-2'>
+     <div className='flex   flex-col text-lg my-2'>
        <h1 className='font-bold   lg:w-[30rem] text-2xl'>Get In <span className='text-[#87d628]'>Touch</span></h1>    
         
-        <h1 className='  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-2xl '><FaPhoneAlt /></span> +00, 123456789</h1>          
-        <h1 className='  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-2xl font-bold'><FaWhatsapp /></span>  +00, 987654321</h1>          
-        <h1 className='  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-2xl font-bold'><AiOutlineMail /></span>example@gmail.com</h1>
-        <h1 className='  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-2xl '><FaSkype /></span> sales@example.skype</h1>
+        <h1 className='  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-lg '><FaPhoneAlt /></span> +00, 123456789</h1>          
+        <h1 className='  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-lg font-bold'><FaWhatsapp /></span>  +00, 987654321</h1>          
+        <h1 className='  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-lg font-bold'><AiOutlineMail /></span>example@gmail.com</h1>
+        <h1 className='  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-lg '><FaSkype /></span> sales@example.skype</h1>
         </div>
 
       </div>
        </div>
        <div className=" flex items-center  justify-center  lg:items-center  w-[100%]  lg:w-[40%] border  lg:justify-center   rounded-[1rem] shadow-lg p-2 " >
        <div>
-       <h1 className='w-[100%] text-center font-bold text-4xl bg-[#87d628] text-white'>Request a proposal</h1>
+       <h1 className='w-[100%] text-center font-bold text-2xl bg-[#87d628] text-white'>Request a proposal</h1>
     <form className='flex flex-wrap bg-white'>
       <input type='text' name='name' placeholder='Name' required className='m-2 p-2  rounded-lg shadow-lg'/>
       <input type='email' name='email' placeholder='Email' required className='m-2 p-2  rounded-lg shadow-lg'/>
@@ -139,10 +139,10 @@ export default function Page() {
        </div>
      
        </div>
-       <div className="flex items-center flex-col justify-center bg-gray-100 gap-4 py-4 my-4">
-        <h1 className="font-bold text-2xl">We are here to <span className="text-[#87d628]"> help</span></h1>
-        <p className="w-[90vw] text-sm text-gray-900 lg:px-[8rem]">Wantech is always set to serve the clients. Every client and project adds some expertise to our portfolio. We have delivered several projects and gained relevant experiences. Have a sneak peek into a few of them. Many more to come and miles to go as we do have much in our quiver.</p>
-        <div className="flex flex-row   justify-center gap-4 flex-wrap pb-4 ">
+       <div className="flex items-center flex-col  bg-gray-100 gap-4 py-4 my-4 ">
+        <h1 className="font-bold text-lg">We are here to <span className="text-[#87d628]"> help</span></h1>
+        <p className="w-[90vw] text-sm text-gray-900 lg:px-[6rem]">Wantech is always set to serve the clients. Every client and project adds some expertise to our portfolio. We have delivered several projects and gained relevant experiences. Have a sneak peek into a few of them. Many more to come and miles to go as we do have much in our quiver.</p>
+        <div className="flex flex-row   justify-center gap-4 lg:gap-16 flex-wrap pb-4 ">
            { data.map((item)=>(
             <div className=" flex items-center flex-col justify-center w-[95%]  lg:w-[19rem] bg-white shadow-lg gap-8 cursor-pointer h-[20rem] hover:animate-increaseSize2" key={data.id}>
                 <i className="text-[3rem] ">{item.icon}</i>
