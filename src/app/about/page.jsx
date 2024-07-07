@@ -78,7 +78,7 @@ export default function page() {
         <h1 className='font-bold  lg:w-[30rem]'>Comprehensive Technology Stack</h1>   
         <p className=' w-[90%]  my-2 text-sm pb-4'> From frontend to backend development, mobile apps to enterprise solutions, and everything in between, we have the capability to handle a wide array of technological requirements. Our proficiency spans multiple platforms and frameworks, ensuring that we can tailor solutions precisely to your specifications.</p>
         <h1 className='font-bold  lg:w-[30rem]'>Expertise in Cloud Hosting and Deployment</h1>   
-        <p className=' w-[90%] text-sm   pb-4 '>We excel in leveraging cloud technologies to optimize performance, scalability, and cost-efficiency for your applications. Whether it's AWS, Azure, Google Cloud, or other platforms, we ensure seamless deployment and management of your applications in the cloud</p>
+        <p className=' w-[90%] text-sm   pb-4 '>We excel in leveraging cloud technologies to optimize performance, scalability, and cost-efficiency for your applications. Whether it&apos;s AWS, Azure, Google Cloud, or other platforms, we ensure seamless deployment and management of your applications in the cloud</p>
 
         <h1 className='font-bold  lg:w-[30rem] '>Innovative and Agile Approach</h1>   
         <p className=' w-[90%] text-sm  pb-4  '>As a small team of exceptionally smart individuals, we thrive on solving complex challenges with innovative solutions. Our agile methodology allows us to adapt quickly to changes, ensuring we deliver projects on time and within budget while exceeding expectations</p>
