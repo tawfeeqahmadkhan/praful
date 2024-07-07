@@ -3,7 +3,61 @@ import Header from '../components/Header'
 import Image from 'next/image'
 import { MdOutlineDone } from "react-icons/md";
 import Footer from '../components/Footer';
+import { TbHealthRecognition } from "react-icons/tb";
+import { MdOutlineRealEstateAgent } from "react-icons/md";
+import { CiHospital1 } from "react-icons/ci";
+import { RiMoneyDollarBoxLine } from "react-icons/ri";
+import { BsCart3 } from "react-icons/bs";
+import { MdCastForEducation } from "react-icons/md";
+import { SiStylelint } from "react-icons/si";
+import { GiChaingun } from "react-icons/gi";
 export default function page() {
+  const data = [
+    {
+        id:1,
+        icon:<TbHealthRecognition />,
+        title:"Healthcare",
+    },
+    {
+        id:2,
+        icon:<MdOutlineRealEstateAgent />,
+        title:"Real-estate",
+    },
+    {
+        id:3,
+        icon:<CiHospital1 />,
+        title:"Hospitality",
+
+    },
+    {
+        id:4,
+        icon:<RiMoneyDollarBoxLine />,
+        title:"Fintech",
+
+    },
+    {
+        id:5,
+        icon:<BsCart3 />,
+        title:"Ecommerce",
+
+    },
+    {
+        id:6,
+        icon:<MdCastForEducation />,
+        title:"Education",
+    },
+    {
+        id:7,
+        icon:<SiStylelint />,
+        title:"Fashion",
+    },
+    {
+        id:8,
+        icon:<GiChaingun />,
+        title:"Jewelry",
+    },
+
+]
   return (
     <div className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 text-white ">
     <Header />
@@ -71,7 +125,51 @@ export default function page() {
       </div>
        </div>
        </div> 
+
+
+
+
         </div> 
+        <div className='flex  justify-center flex-col lg:flex-row  items-center w-[100vw]  bg-white text-black'>
+       <div className=" flex w-[98vw]  lg:w-[45%] lg:h-[30rem]  lg:items-center  "
+       >
+      <div>
+      <Image src={'/mobile.png'} width={400} height={450} className="flex  justify-center items-center hidden lg:flex  "/>
+      </div>
+       </div>
+       <div className=" flex  lg:items-center  w-[100%]  lg:w-[40%]  lg:justify-center p-2 border rounded-[1rem] shadow-lg " >
+       <div>
+       <h1 className='font-bold  lg:w-[15rem] text-2xl'>E-commerce </h1>    
+        <p className=' w-[90%]   my-2 pb-8'>A powerful and robust performing online store is essential for eCommerce businesses. Incipient Info strategizes to create such online retail stores which are attractive and feature-rich. Our technical and marketing teams form the best solution for the agile development of your e-store. We are well-versed in providing a quality shopping experience to your visitors to elevate the business's profit growth. Additionally, when it comes to buying anything, the payment gateway becomes essential and therefore, we also work efficiently for third-party integration. We can transform your business into an e-store</p>
+        <h1 className='font-bold p-4   flex items-center hover:bg-[#87d628] lg:w-[20rem] cursor-pointer shadow-lg border rounded-lg'> Ecommerce Website Design</h1>          
+        <h1 className='font-bold p-4  my-2 flex items-center hover:bg-[#87d628] lg:w-[20rem] cursor-pointer shadow-lg border rounded-lg'> Ecommerce App Development</h1>         
+        <h1 className='font-bold p-4  my-2 flex items-center hover:bg-[#87d628] lg:w-[20rem] cursor-pointer shadow-lg border rounded-lg'> Custom Open-Source Development</h1>
+        <h1 className='font-bold p-4  mb-2 flex items-center hover:bg-[#87d628] lg:w-[20rem] cursor-pointer shadow-lg border rounded-lg'>Woocommerce</h1> 
+        </div>
+       </div>
+       
+       </div>
+       <div className='flex p-1 lg:p-[10rem] lg:pb-[2px] flex-col bg-white text-black'>
+        <h1 className='font-bold text-2xl text-start pb-2'>The process we follow to Hire Dedicated Developers</h1>
+        <p className='text-sm pb-2'>Web And Mobile Development is itself a model that we follow for overall deliverables. Incipient Infotech works for seamless integrations and much more and that is why we have carved a proper web And mobile development model. Every project goes through a few stages, where we intervene with our relevant skills. Here are the prominent steps of the process that Web And Mobile Development Service include</p>
+        <Image src={'/processhire.png'} width={1000} height={1000}/>
+       </div>
+
+       <div className='flex p-1 lg:p-[10rem] flex-col bg-white text-black'>
+        <h1 className='font-bold text-2xl text-start pb-2'>Industries We Have Experience In</h1>
+        <p className='text-sm pb-2'>We are happily serving clients from different industries. Here are a few to define our unerring development approach</p>
+        <div className="flex items-center flex-col justify-center bg-gray-100 gap-4 py-4">
+        <div className="flex flex-row   justify-center gap-4 flex-wrap pb-4 ">
+           { data.map((item)=>(
+            <div className=" flex items-center flex-col justify-center w-[45%]  lg:w-[15rem] bg-white shadow-lg gap-8 cursor-pointer h-[10rem] hover:animate-increaseSize2" key={data.id}>
+                <i className="text-[3rem] text-[#87d628] ">{item.icon}</i>
+                <h1 className=" font-semibold px-4">{item.title}</h1>
+            </div>
+           ))
+           }
+        </div>
+        </div>
+       </div>
   <div className='text-black'>
   <Footer/>
   </div>
