@@ -39,7 +39,7 @@ export default function page() {
   return (
     <>
       
-      <div className=" w-[100vw] bg-[url('/office2.png')] bg-no-repeat bg-w-[100vw] lg:bg-contain overflow-x-hidden ">
+      <div className=" w-[100%] bg-[url('/office2.png')] bg-no-repeat bg-w-[100vw] lg:bg-contain overflow-x-hidden ">
     <div className="bg-black  bg-opacity-[50%] text-white">
     <Header   />
     <div className=" flex items-center flex-col justify-center  w-[99vw]  h-[8rem] lg:h-[19rem] ">

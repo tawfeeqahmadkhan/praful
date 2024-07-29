@@ -61,11 +61,11 @@ export default function Page() {
 
 ]
   return (
-    <> 
-      <div className=" w-[100vw] bg-[url('/office2.png')] bg-no-repeat bg-w-[100vw] lg:bg-contain overflow-x-hidden ">
-      <div className="bg-black  bg-opacity-[70%] text-white">
+    <div className='overflow-x-hidden'> 
+      <div className=" w-[100%] bg-[url('/office2.png')] bg-no-repeat bg-w-[100vw] lg:bg-contain  ">
+      <div className="bg-black  bg-opacity-[70%] text-white  ">
     <Header   />
-    <div className=" flex  flex-col  w-[99vw]   lg:h-[19rem]  p-1 lg:p-8 gap-4 pl-4 lg:pl-8 ">
+    <div className=" flex  flex-col  w-[100vw]   lg:h-[19rem]  p-1 lg:p-8 gap-4 pl-4 lg:pl-8  ">
       <h1 className='text-start font-bold lg:text-2xl   '>Kickstart Your Digital Journey <span className='text-[#87d628]'>Today</span> </h1>
       <p className='text-start  text-sm w-[90%] lg:w-[50%]'>Your Digital Presence is Important of today&apos;s Industry. Don&apos;t Let anyone overtake your Existence.</p>
       <p className='text-start  text-sm lg:w-[50%]'>we can lead you in the Digital World by Being your technology partner</p>
@@ -156,7 +156,7 @@ export default function Page() {
         </div>
         </div>
        <Footer/>
-    </>
+    </div>
 
   )
 }
