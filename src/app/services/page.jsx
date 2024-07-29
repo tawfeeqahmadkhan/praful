@@ -59,7 +59,7 @@ export default function page() {
 
 ]
   return (
-    <div className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 text-white ">
+    <div className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 text-white overflow-x-hidden ">
     <Header />
    <div>
    <div className=" text-white lg:p-14 pb-2">

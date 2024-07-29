@@ -62,7 +62,7 @@ export default function Page() {
 ]
   return (
     <> 
-      <div className=" w-[100vw] bg-[url('/office2.png')] bg-no-repeat bg-w-[100vw] lg:bg-contain ">
+      <div className=" w-[100vw] bg-[url('/office2.png')] bg-no-repeat bg-w-[100vw] lg:bg-contain overflow-x-hidden ">
       <div className="bg-black  bg-opacity-[70%] text-white">
     <Header   />
     <div className=" flex  flex-col  w-[99vw]   lg:h-[19rem]  p-1 lg:p-8 gap-4 pl-4 lg:pl-8 ">
