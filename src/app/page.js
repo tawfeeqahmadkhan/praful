@@ -10,16 +10,19 @@ import Services from "./components/services";
 export default function Home() {
   return (
     <>
-      <div className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 text-white ">
+    <div className="overflow-x-hidden">
+    <div className="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500 text-white  ">
         <Header />
         <Main />
       </div>
       <About />
       <Services />
       <Process />
-      <Projects />
-      <Testimonials />
+      { /*<Projects />*/}
+     { /*<Testimonials />*/}
       <Footer />
+    </div>
+      
 
     </>
 

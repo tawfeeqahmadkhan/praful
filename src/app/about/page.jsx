@@ -48,7 +48,7 @@ export default function page() {
        
         
         <h1 className="font-bold text-4xl">About <span className="text-[#87d628]">Us</span></h1>
-        <p>Developers with an efficient way of doing things</p>
+        <p className="pl-4 lg:pl-0 ">Developers with an efficient way of doing things</p>
         </div>
         </div>
     </div>
@@ -73,7 +73,7 @@ export default function page() {
         <h1 className="text-center  font-semibold text-2xl ">Why Choose <span className="text-black">Us</span></h1>
        <div className='flex  justify-center flex-col lg:flex-row lg:justify-between items-center w-[100vw]'>
        
-       <div className=" flex  lg:items-center  w-[100%]  lg:w-[50%]  lg:justify-center p-2 lg:px-8 " >
+       <div className=" flex  lg:items-center  w-[100%]  lg:w-[50%]  lg:justify-center p-2 lg:px-8 pl-4 lg:pl-0  " >
        <div>
         <h1 className='font-bold  lg:w-[30rem] text-black'>Comprehensive Technology Stack</h1>   
         <p className=' w-[90%]  my-2 text-sm pb-4'> From frontend to backend development, mobile apps to enterprise solutions, and everything in between, we have the capability to handle a wide array of technological requirements. Our proficiency spans multiple platforms and frameworks, ensuring that we can tailor solutions precisely to your specifications.</p>

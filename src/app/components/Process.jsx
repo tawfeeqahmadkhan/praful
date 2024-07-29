@@ -46,22 +46,22 @@ export default function Process() {
        
     ]
   return (
-    <div className='bg-[#87d628] text-white  lg:h-[140vh] p-4'>
-      <Image src={'/process.jpg'} width={850} height={850} className='lg:mb-[-5rem] animate-bounceImg realtive z-[50]'/>
+    <div className='bg-[#87d628] text-white  lg:h-[160vh] p-4'>
+      <Image src={'/process.jpg'} width={850} height={850} className=' animate-bounceImg realtive z-[50]'/>
         <div className='flex bottom-0'>
 <div className='flex flex-col lg:flex-row justify-center lg:justify-between items-center w-[100vw]'>
   
-  <div className=" flex  w-[50%] lg:h-[30rem]  justify-center flex-col items-center lg:pl-[-1rem]"
+  <div className=" flex w-[100%]  lg:w-[50%] lg:h-[30rem]  justify-center flex-col lg:items-center lg:pl-[-1rem] pl-4 lg:pl-0 "
   >
 <h1 className='flex  font-bold text-4xl w-[100%] lg:w-[30rem] tracking-[.25em] gap-4'>Our  <span> Process</span> </h1>  
      
      <p className='w-[16rem] lg:w-[30rem] text-lg my-10'>At Wantech, we believe that process needs to be simple, organized, and transparent, so we create eight steps </p>
      <a href="/contact"> 
-     <p className='w-[16rem] lg:w-[30rem] text-lg text-semibold lg:my-10 flex items-center gap-4 cursor-pointer'>Contact Us <span className='cursor-pointer text-2xl hover:animate-increaseSize'> <FaLongArrowAltRight /></span> </p></a>
+     <p className='w-[16rem] lg:w-[30rem] text-lg text-semibold lg:my-10 flex items-center gap-4 cursor-pointer mb-2'>Contact Us <span className='cursor-pointer text-2xl hover:animate-increaseSize'> <FaLongArrowAltRight /></span> </p></a>
      
    
   </div>
-  <div className=" flex w-[100%]  lg:w-[50%] h-[20rem] lg:h-[35rem]  justify-center flex-wrap  gap-[5px] lg:gap-2 w-1/2 lg:p-4 realtive z-[100]" >
+  <div className=" flex w-[100%]  lg:w-[50%] h-[20rem] lg:h-[35rem] pl-4 lg:pl-0  lg:justify-center flex-wrap  gap-[5px] lg:gap-2 w-1/2 lg:p-4 realtive z-[100]" >
  {
     data.map((i)=>(
         <div key={i} className=' flex items-center flex-col justify-center border w-[5rem] h-[6rem] lg:w-[9rem] lg:h-[12rem] rounded-[45%] bg-white text-black shadow-lg gap-2 lg:gap-4'>

@@ -65,7 +65,7 @@ export default function Page() {
       <div className=" w-[100vw] bg-[url('/office2.png')] bg-no-repeat bg-w-[100vw] lg:bg-contain ">
       <div className="bg-black  bg-opacity-[70%] text-white">
     <Header   />
-    <div className=" flex  flex-col  w-[99vw]   lg:h-[19rem]  p-1 lg:p-8 gap-4">
+    <div className=" flex  flex-col  w-[99vw]   lg:h-[19rem]  p-1 lg:p-8 gap-4 pl-4 lg:pl-8 ">
       <h1 className='text-start font-bold lg:text-2xl   '>Kickstart Your Digital Journey <span className='text-[#87d628]'>Today</span> </h1>
       <p className='text-start  text-sm w-[90%] lg:w-[50%]'>Your Digital Presence is Important of today&apos;s Industry. Don&apos;t Let anyone overtake your Existence.</p>
       <p className='text-start  text-sm lg:w-[50%]'>we can lead you in the Digital World by Being your technology partner</p>
@@ -77,7 +77,7 @@ export default function Page() {
        >
       <div>
     
-     <div className='flex   flex-col text-lg my-2'>
+     <div className='flex   flex-col text-lg my-2 text-black'>
        <h1 className='font-bold   lg:w-[30rem] text-2xl'>Get In <span className='text-[#87d628]'>Touch</span></h1>    
         
         <h1 className='  lg:w-[30rem] py-2 flex items-center gap-2'> <span className='text-[#87d628] text-lg '><FaPhoneAlt /></span> +00, 123456789</h1>          
@@ -99,7 +99,7 @@ export default function Page() {
       
     </form>
     <div className='flex  flex-col lg:flex-row w-[100%] lg:items-center gap-8'>
-     <div className=' flex border items-center w-[65%] lg:w-[50%]'> 
+     <div className=' flex border items-center w-[65%] lg:w-[50%] bg-white'> 
      <span className='w-[100%]'> 
       <select
         required
@@ -115,7 +115,7 @@ export default function Page() {
       </select></span>
      <input type='text' name='number' placeholder='Mobile Number' required className='m-2 p-2 w-[10rem] rounded-lg shadow-lg'/>
      </div>
-     <div className='w-[50%] cursor-pointer'>
+     <div className='w-[50%] cursor-pointer bg-white'>
       <p className='text-sm'>Approx. budget: {progress}00 USD</p>
       <input 
         type="range" 
@@ -139,7 +139,7 @@ export default function Page() {
        </div>
      
        </div>
-       <div className="flex items-center flex-col  bg-gray-100 gap-4 py-4 my-4 ">
+       <div className="flex items-center flex-col  bg-gray-100 gap-4 py-4 mt-4 ">
         <h1 className="font-bold text-lg">We are here to <span className="text-[#87d628]"> help</span></h1>
         <p className="w-[90vw] text-sm text-gray-900 lg:px-[6rem]">Wantech is always set to serve the clients. Every client and project adds some expertise to our portfolio. We have delivered several projects and gained relevant experiences. Have a sneak peek into a few of them. Many more to come and miles to go as we do have much in our quiver.</p>
         <div className="flex flex-row   justify-center gap-4 lg:gap-16 flex-wrap pb-4 ">
